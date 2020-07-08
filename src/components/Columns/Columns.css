@@ -1,3 +1,14 @@
 th {
     background-color: #e9ecef;
 }
+
+button {
+    background-color: #e9ecef;
+    border: 1px #e9ecef solid;
+    transition: ease-in-out .25s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cbcdcf;
+}
