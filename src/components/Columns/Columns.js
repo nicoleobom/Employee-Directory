@@ -1,6 +1,6 @@
 import React from "react";
 import "./Columns.css";
-import ".../employees.json";
+import employees from "./employees.json";
 import Data from "../Data/Data";
 
 function Columns() {
@@ -17,7 +17,13 @@ function Columns() {
             </thead>
             <tbody>
                 {
-                    employees.map((employee) => <Data firstName={employee.firstName} lastName={employee.lastName} gender={employee.gender} age={employee.age} emailAddress={employee.emailAddress}/>)
+                    employees.map((employee) => <Data 
+                        firstName={employee.firstName} 
+                        lastName={employee.lastName} 
+                        gender={employee.gender} 
+                        age={employee.age} 
+                        emailAddress={employee.emailAddress}
+                        />)
                 }
             </tbody>
         </table>
