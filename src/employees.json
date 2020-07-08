@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "firstName": "Colin",
+        "lastName": "Pyzza",
+        "gender": "Male",
+        "age": "27",
+        "emailAddress": "pyzzac@gmail.com"
+    },
+    {
+        "id": 2,
+        "firstName": "Nicole",
+        "lastName": "O'Bomsawin",
+        "gender": "Female",
+        "age": "28",
+        "emailAddress": "nicoleobom@yahoo.com"
+    },
+    {
+        "id": 3,
+        "firstName": "Stephanie",
+        "lastName": "Arpin",
+        "gender": "Female",
+        "age": "29",
+        "emailAddress": "samiller912@gmail.com"
+    },
+  ]
+  

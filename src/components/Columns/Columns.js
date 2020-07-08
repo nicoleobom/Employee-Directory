@@ -1,5 +1,7 @@
 import React from "react";
-import "./Columns.css"
+import "./Columns.css";
+import ".../employees.json";
+import Data from "../Data/Data";
 
 function Columns() {
     return (
@@ -13,6 +15,11 @@ function Columns() {
                     <th scope="col">Email Address</th>
                 </tr>
             </thead>
+            <tbody>
+                {
+                    employees.map((employee) => <Data firstName={employee.firstName} lastName={employee.lastName} gender={employee.gender} age={employee.age} emailAddress={employee.emailAddress}/>)
+                }
+            </tbody>
         </table>
     )
 }
