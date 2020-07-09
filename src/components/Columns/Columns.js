@@ -1,7 +1,8 @@
 import React from "react";
 import "./Columns.css";
-import employees from "./employees.json";
-import Data from "../Data/Data";
+// import employees from "./employees.json";
+// import Data from "../Data/Data";
+import Table from "../Table/Table"
 
 function Columns() {
     return (
@@ -18,18 +19,7 @@ function Columns() {
                     <button id="filter"><i class="fas fa-filter"></i></button>
                 </tr>
             </thead>
-            <tbody>
-                {
-                    employees.map((employee) => <Data 
-                        id={employee.id}
-                        firstName={employee.firstName} 
-                        lastName={employee.lastName} 
-                        gender={employee.gender} 
-                        age={employee.age} 
-                        emailAddress={employee.emailAddress}
-                        />)
-                }
-            </tbody>
+            <Table />
         </table>
     )
 }
