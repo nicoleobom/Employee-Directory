@@ -1,7 +1,5 @@
 import React from "react";
 import "./Columns.css";
-// import employees from "./employees.json";
-// import Data from "../Data/Data";
 import Table from "../Table/Table"
 
 function Columns() {
