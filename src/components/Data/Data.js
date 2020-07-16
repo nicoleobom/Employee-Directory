@@ -1,6 +1,4 @@
 import React from "react";
-import DataContext from ".../";
-
 
 function Data(props) {
 
