@@ -11,29 +11,28 @@ function revertSortFunc(a, b, order) {
     }
 }
 
-function sortFuncName(a, b, order) {
+function sortFunc(a, b, order) {
     if (order === 'desc') {
-        return a.lastName - b.lastName;
+        return a.age - b.age;
     } else {
-        return b.lastName - a.lastName;
+        return b.age - a.age;
     }
 }
 
 class Columns extends React.Component {
 
-    
-
     render() {
         return (
-            
+            <div>
             <BootstrapTable data={ employees }>
-                <TableHeaderColumn isKey dataField="id" dataSort sortFunc={ revertSortFunc }>Employee ID<i class="fas fa-sort"></i></TableHeaderColumn>
-                <TableHeaderColumn dataField="firstName">First Name<i class="fas fa-sort"></i></TableHeaderColumn>
-                <TableHeaderColumn dataField="lastName" dataSort sortFunc={ sortFuncName }>Last Name<i class="fas fa-sort"></i></TableHeaderColumn>
-                <TableHeaderColumn dataField="gender">Gender</TableHeaderColumn>
-                <TableHeaderColumn dataField="age">Age<i class="fas fa-sort"></i></TableHeaderColumn>
+                <TableHeaderColumn width="100px" isKey dataField="id" dataSort sortFunc={ revertSortFunc }>Id<i class="fas fa-sort"></i></TableHeaderColumn>
+                <TableHeaderColumn width="150px" dataField="firstName">First Name</TableHeaderColumn>
+                <TableHeaderColumn width="150px" dataField="lastName">Last Name</TableHeaderColumn>
+                <TableHeaderColumn width="100px" dataField="gender">Gender</TableHeaderColumn>
+                <TableHeaderColumn width="100px" dataField="age" dataSort sortFunc={ sortFunc }>Age<i class="fas fa-sort"></i></TableHeaderColumn>
                 <TableHeaderColumn dataField="emailAddress">Email Address</TableHeaderColumn>
             </BootstrapTable>
+            </div>
         )
     }
 }

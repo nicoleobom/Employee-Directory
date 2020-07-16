@@ -12,3 +12,7 @@ button {
 button:hover {
     background-color: #cbcdcf;
 }
+
+TableHeaderColumn {
+    width: 100px;
+}
