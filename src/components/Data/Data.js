@@ -1,6 +1,9 @@
 import React from "react";
+import DataContext from ".../";
+
 
 function Data(props) {
+
     return (
         <tr>
             <td>{props.id}</td>

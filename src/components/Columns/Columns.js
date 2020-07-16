@@ -1,6 +1,7 @@
 import React from "react";
 import "./Columns.css";
-import Table from "../Table/Table"
+import Table from "../Table/Table";
+import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
 
 function Columns() {
     return (
