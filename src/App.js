@@ -4,7 +4,7 @@ import Columns from "./components/Columns/Columns";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Jumbotron />
       <Columns />
     </div>

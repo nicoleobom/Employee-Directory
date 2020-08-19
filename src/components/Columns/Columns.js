@@ -1,7 +1,7 @@
 import React from "react";
 import "./Columns.css";
 import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
-import employees from '../employees.json';
+import employees from '../../assets/employees.json';
 
 function revertSortFunc(a, b, order) {
     if (order === 'desc') {
