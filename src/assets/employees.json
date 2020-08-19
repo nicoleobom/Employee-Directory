@@ -21,7 +21,71 @@
         "lastName": "Arpin",
         "gender": "Female",
         "age": "29",
-        "emailAddress": "samiller912@gmail.com"
+        "emailAddress": "sarpin45@gmail.com"
+    },
+    {
+        "id": 4,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "gender": "Female",
+        "age": "39",
+        "emailAddress": "jdoe123@gmail.com"
+    },
+    {
+        "id": 5,
+        "firstName": "Joe",
+        "lastName": "Average",
+        "gender": "Male",
+        "age": "55",
+        "emailAddress": "joe987@example.com"
+    },
+    {
+        "id": 6,
+        "firstName": "Jennifer",
+        "lastName": "Anniston",
+        "gender": "Female",
+        "age": "51",
+        "emailAddress": "janniston@example.com"
+    },
+    {
+        "id": 7,
+        "firstName": "Joey",
+        "lastName": "Tribbiani",
+        "gender": "Male",
+        "age": "26",
+        "emailAddress": "jt213456@yahoo.com"
+    },
+    {
+        "id": 8,
+        "firstName": "Ross",
+        "lastName": "Gellar",
+        "gender": "Male",
+        "age": "27",
+        "emailAddress": "wewereonabreak@example.com"
+    },
+    {
+        "id": 9,
+        "firstName": "Monica",
+        "lastName": "Gellar",
+        "gender": "Female",
+        "age": "26",
+        "emailAddress": "mgellar@example.com"
+    },
+    {
+        "id": 10,
+        "firstName": "Phoebe",
+        "lastName": "Buffay",
+        "gender": "Female",
+        "age": "28",
+        "emailAddress": "smellycat123@example.com"
+    },
+    {
+        "id": 11,
+        "firstName": "Rachel",
+        "lastName": "Green",
+        "gender": "Female",
+        "age": "25",
+        "emailAddress": "rachelgreen1238@example.com"
     }
   ]
   
