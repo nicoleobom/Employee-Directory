@@ -47,7 +47,7 @@ npm start
 
 MIT License
 
-Copyright (c) [2020] [Simon Newton, Toni Davis, Logan Hemphill, Nicole Obamsawin]
+Copyright (c) [2020] [Nicole O'Bomsawin]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
