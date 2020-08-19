@@ -1,6 +1,6 @@
 import React from 'react';
-import Jumbotron from "./components/Jumbotron/Jumbotron";
-import Columns from "./components/Columns/Columns";
+import Jumbotron from "./components/Jumbotron/index";
+import Columns from "./components/Columns/index";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Columns.css";
+import "./index.css";
 import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
 import employees from '../../assets/employees.json';
 
