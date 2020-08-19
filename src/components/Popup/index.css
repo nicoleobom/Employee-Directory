@@ -1,0 +1,41 @@
+.popup {  
+    position: fixed;  
+    width: 25%;  
+    height: 25%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    background-color: #e9ecef;
+    border: 1px #e9ecef solid;
+    border-radius: 5px;
+    text-align: center !important;
+    box-shadow: 7px 7px grey;
+  }  
+
+  .popup\_inner {  
+    position: absolute;  
+    left: 25%;  
+    right: 25%;  
+    top: 25%;  
+    bottom: 25%;  
+    margin: auto;  
+    border-radius: 20px;  
+    background: white; 
+  }
+
+#error {
+    padding-top: 10%;
+}
+
+#close {
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: grey;
+}
+
+#close:hover {
+    color: white;
+}

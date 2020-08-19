@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import Popup from '../Popup/index';
 
 class AddBtn extends React.Component {
     constructor(props) {
@@ -19,6 +20,14 @@ class AddBtn extends React.Component {
         return (
             <div>
                 <button onClick={this.togglePopUp.bind(this)}><i class="fas fa-plus"></i></button>
+
+                {this.state.showPopUp ? 
+                <Popup 
+                    text='The "Add Employee" feature is currently unavailable.'
+                    closePopup={this.togglePopUp.bind(this)}
+                />
+                : null
+            }
             </div>
         );
     }
