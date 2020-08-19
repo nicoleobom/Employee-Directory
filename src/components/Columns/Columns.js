@@ -23,7 +23,7 @@ class Columns extends React.Component {
 
     render() {
         return (
-            <div>
+            <div id="table" className="justify-content-center align-self-center">
             <BootstrapTable data={ employees }>
                 <TableHeaderColumn width="100px" isKey dataField="id" dataSort sortFunc={ revertSortFunc }>Id<i class="fas fa-sort"></i></TableHeaderColumn>
                 <TableHeaderColumn width="300px" dataField="firstName" filter={ { type: 'TextFilter', delay: 1000 } }>First Name</TableHeaderColumn>
